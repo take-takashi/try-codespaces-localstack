@@ -1,8 +1,8 @@
 {
   // See https://github.com/microsoft/vscode-dev-containers/tree/main/containers/python-3
-  "name": "python",
+  "name": "base",
   "remoteUser": "vscode",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
   "features": {
     "ghcr.io/devcontainers-contrib/features/localstack:2": {}
   }
