@@ -1,9 +1,13 @@
 {
   // See https://github.com/microsoft/vscode-dev-containers/tree/main/containers/python-3
   "name": "base",
-  "remoteUser": "vscode",
-  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
+  //"remoteUser": "vscode",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye",
   "features": {
-    "ghcr.io/devcontainers-contrib/features/localstack:2": {}
+    //"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {},
+    //"ghcr.io/devcontainers-contrib/features/pipx-package:1": {},
+    //"ghcr.io/devcontainers/features/python:1": {},
+    //"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    //"ghcr.io/devcontainers-contrib/features/localstack:2": {}
   }
 }
